@@ -1,12 +1,14 @@
 package Composants;
 
 public enum Core {
-    Dragon_Heartstring,
-    Pheonix_Feather,
-    Unicorn_Tail_Hair,
-    Veela_Hair,
-    Thestral_Tail_Hair,
-    Coral,
-    Flour,
-    Yeast,
+    Coeur_de_Dragon("Coeur de Dragon"),
+    Plume_de_Phoénix("Plume de Phoénix"),
+    Poil_de_queue_de_Licorne("Poil de queue de Licorne"),
+    Cheuveux_de_Veela("Cheuveux de Veela"),
+    Poil_de_queue_de_Thestral("Poil de queue de Thestral"),
+    Farine("Farine");
+    private String name;
+    Core(String name) {
+        this.name = name;
+    }
 }

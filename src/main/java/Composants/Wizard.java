@@ -27,6 +27,6 @@ public class Wizard {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println("Je voulais dire baguette bien sûr je ne suis pas sénile, je ne veux pas retourner à l'EHPAD... ");
+        System.out.println("Je voulais dire baguette bien sûr, je crois que je deviens sénile... ");
     }
 }
