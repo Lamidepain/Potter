@@ -10,26 +10,14 @@ public class Wand {
 
     public static void Run(){
         Wand.Begin();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        Wait.wait(2000);
         Wand.ChooseCore();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        Wait.wait(2000);
         Wand.ChooseSize();
     }
     private static void Begin(){
         System.out.println("Bienvenue dans le magasin de baguette magique ! C'est ici que tu vas pouvoir choisir ta baguette qui va t'accompagner dans toutes tes aventures. ");
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        Wait.wait(2000);
         System.out.println("Voici les coeurs de baguettes disponibles : ");
     }
 
@@ -37,11 +25,7 @@ public class Wand {
         Scanner obj = new Scanner(System.in);
         for (Core c: Core.values()){
             System.out.println(c);
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
+            Wait.wait(1000);
         }
         System.out.println("Désormais je te laisse choisir : ");
         String ChoiceCore = obj.nextLine();
@@ -77,15 +61,11 @@ public class Wand {
         Scanner obj = new Scanner(System.in);
         int ChoosedSize;
         System.out.println("Bien, maintenant il ne reste plus qu'à choisir la taille de ta baguette. ");
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        Wait.wait(2000);
         do {
             System.out.println("Choisis une taille comprise entre 20 et 35 centimètres : ");
             ChoosedSize = obj.nextInt();
-        } while (20 > ChoosedSize && ChoosedSize > 35);
+        } while (20 > ChoosedSize & ChoosedSize > 35);
         System.out.println("Très bien, elle fera donc " + ChoosedSize + " centimètres.");
         return ChoosedSize;
     }

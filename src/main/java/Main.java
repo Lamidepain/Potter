@@ -1,15 +1,12 @@
+import Composants.Wait;
 import Composants.Wand;
 import Composants.Wizard;
 import lombok.*;
 import java.io.*;
 public class Main {
     public static void main(String[] args) {
-        Wizard.name();
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        Wizard.Run();
+        Wait.wait(2000);
         Wand.Run();
     }
 }
