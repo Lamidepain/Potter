@@ -2,18 +2,22 @@ package Composants;
 import java.util.Random;
 
 public enum Pet {
-    Hibou("Hibou"),
-    Chat("Chat"),
-    Rat("Rat"),
-    Chien("Chien"),
-    Crapaud("Crapaud"),
-    Fouine("Fouine");
+    hibou("Hibou"),
+    chat("Chat"),
+    rat("Rat"),
+    chien("Chien"),
+    crapaud("Crapaud");
     private String name;
     Pet(String name) {
         this.name = name;
     }
-    private Pet randomPet() {
-        int Pick = new Random().nextInt(Pet.values().length);
-        return Pet.values()[Pick];
+    private static final Random PRNG = new Random();
+    public static Pet randomPet() {
+        Pet[] pets = values();
+        return pets[PRNG.nextInt(pets.length)];
     }
+
+
 }
+
+

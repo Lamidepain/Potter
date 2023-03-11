@@ -1,6 +1,4 @@
-import Composants.Wait;
-import Composants.Wand;
-import Composants.Wizard;
+import Composants.*;
 import lombok.*;
 import java.io.*;
 public class Main {
@@ -8,5 +6,7 @@ public class Main {
         Wizard.Run();
         Wait.wait(2000);
         Wand.Run();
+        Wait.wait(2000);
+        SortingHat.ChooseHouse();
     }
 }

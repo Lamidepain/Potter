@@ -1,31 +1,33 @@
 package Composants;
 import lombok.*;
-import java.util.ArrayList;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Wand {
     @Setter @Getter static Core core;
     @Setter @Getter static int size;
+    @Setter @Getter static Wand wand;
 
     public static void Run(){
         Wand.Begin();
         Wait.wait(2000);
-        Wand.ChooseCore();
-        Wait.wait(2000);
-        Wand.ChooseSize();
+        Wand.ChooseWand();
     }
     private static void Begin(){
         System.out.println("Bienvenue dans le magasin de baguette magique ! C'est ici que tu vas pouvoir choisir ta baguette qui va t'accompagner dans toutes tes aventures. ");
         Wait.wait(2000);
         System.out.println("Voici les coeurs de baguettes disponibles : ");
     }
-
+    public static Wand ChooseWand(){
+        Wand wand = new Wand();
+        wand.setCore(ChooseCore());
+        wand.setSize(ChooseSize());
+        return wand;
+    }
     private static Core ChooseCore(){
         Scanner obj = new Scanner(System.in);
         for (Core c: Core.values()){
-            System.out.println(c);
-            Wait.wait(1000);
+            System.out.println(c.toString().replace("_", " "));
+            Wait.wait(500);
         }
         System.out.println("Désormais je te laisse choisir : ");
         String ChoiceCore = obj.nextLine();
@@ -53,7 +55,7 @@ public class Wand {
                 ChoosedCore = Core.Coeur_de_Dragon;
             break;
         }
-        System.out.println("Très bien tu as donc pris " + ChoosedCore + ", ce n'est pas très original...");
+        System.out.println("Très bien tu as donc pris " + ChoosedCore.toString().replace("_", " ") + ", c'est un bon choix...");
         return ChoosedCore;
     }
 
@@ -65,7 +67,7 @@ public class Wand {
         do {
             System.out.println("Choisis une taille comprise entre 20 et 35 centimètres : ");
             ChoosedSize = obj.nextInt();
-        } while (20 > ChoosedSize & ChoosedSize > 35);
+        } while ((ChoosedSize < 20) || (ChoosedSize > 35));
         System.out.println("Très bien, elle fera donc " + ChoosedSize + " centimètres.");
         return ChoosedSize;
     }

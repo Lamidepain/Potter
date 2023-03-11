@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c803660b-2565-462d-9854-b39582e423c0" name="Changes" comment="Wand + Core">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Composants/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Composants/Wait.java" afterDir="false" />
+    <list default="true" id="c803660b-2565-462d-9854-b39582e423c0" name="Changes" comment="Pet">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composants/AbstractSpell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Potion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/SortingHat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Spell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Wand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
@@ -50,6 +55,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -67,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678436278066</updated>
-      <workItem from="1678436279319" duration="14656000" />
+      <workItem from="1678436279319" duration="20763000" />
+      <workItem from="1678525372613" duration="9692000" />
     </task>
     <task id="LOCAL-00001" summary="Lombok">
       <created>1678437087245</created>
@@ -97,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678446784848</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pet">
+      <created>1678455043691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678455043691</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +124,7 @@
     <MESSAGE value="Lombok" />
     <MESSAGE value="Création de base" />
     <MESSAGE value="Wand + Core" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wand + Core" />
+    <MESSAGE value="Pet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pet" />
   </component>
 </project>
