@@ -1,5 +1,5 @@
 package Composants;
 
-public class AbstractSpell {
+public abstract class AbstractSpell {
 
 }

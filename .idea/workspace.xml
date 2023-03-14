@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c803660b-2565-462d-9854-b39582e423c0" name="Changes" comment="Pet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Composants/AbstractSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/SortingHat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Wand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composants/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Composants/AbstractSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Composants/AbstractSpell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678436278066</updated>
       <workItem from="1678436279319" duration="20763000" />
-      <workItem from="1678525372613" duration="9692000" />
+      <workItem from="1678525372613" duration="12757000" />
     </task>
     <task id="LOCAL-00001" summary="Lombok">
       <created>1678437087245</created>
@@ -114,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678455043691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pet">
+      <created>1678544881173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678544881173</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
